@@ -1,0 +1,20 @@
+id : count-text-files 
+difficulty: easy 
+
+description: | 
+    You are give a directory at /data/files containing files of different types. 
+
+    Your task is to :
+    1. Count how many files end with the .txt extension 
+    2. Write the result to /output/result.txt 
+
+    The output file must containe only the number and a newline. 
+
+rules: 
+  - Do not modify input files 
+  - Do not modify test files 
+  - Output must be deterministic 
+
+success_criteria: 
+  - /output/result.txt exists 
+  - The file contains the correct count 
